@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text } from "react-native";
 import tailwind from "tailwind-rn";
-import { CovidMessage, HomeMap } from "../../components";
+import { CovidMessage, HomeMap, SearchBar } from "../../components";
 
 const HomeScreen = () => {
   return (
@@ -9,6 +9,8 @@ const HomeScreen = () => {
       <HomeMap />
       {/* Covid Message */}
       <CovidMessage />
+      <SearchBar />
+      
     </View>
   );
 };
