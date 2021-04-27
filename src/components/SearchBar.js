@@ -45,10 +45,10 @@ const SearchBar = () => {
         >
           <View
             style={tailwind(
-              "w-10 h-10 rounded-full bg-gray-100 justify-center items-center mr-3"
+              "w-10 h-10 rounded-full bg-blue-500 justify-center items-center mr-3"
             )}
           >
-            <Ionicons name="ios-home" size={20} color="black" />
+            <Ionicons name="ios-home" size={20} color="white" />
           </View>
           <AppText variant="label" className="text-gray-700 text-lg">
             Home
