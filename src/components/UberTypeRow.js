@@ -9,7 +9,7 @@ const UberTypeRow = () => {
     <TouchableNativeFeedback>
       <View
         style={tailwind(
-          "flex-row justify-between items-center  px-5 py-3 border-b border-gray-200"
+          "flex-row justify-between items-center px-5 py-3"
         )}
       >
         <View style={tailwind("flex-row items-center")}>
