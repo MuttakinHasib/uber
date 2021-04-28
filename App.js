@@ -7,7 +7,11 @@ import {
   SafeAreaView,
   StyleSheet,
 } from "react-native";
-import { HomeScreen } from "./src/screens";
+import {
+  DestinationSearchScreen,
+  HomeScreen,
+  SearchResultScreen,
+} from "./src/screens";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -23,7 +27,9 @@ export default function App() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <HomeScreen />
+      {/* <HomeScreen /> */}
+      {/* <DestinationSearchScreen /> */}
+      <SearchResultScreen />
       <StatusBar style="auto" />
     </SafeAreaView>
   );
